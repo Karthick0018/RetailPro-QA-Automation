@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="RetailPro Suite" verbose="1">
+  <test name="UI - Cucumber">
+    <classes>
+      <class name="com.retailpro.runners.TestRunner"/>
+    </classes>
+  </test>
+  <test name="API - REST Assured">
+    <classes>
+      <class name="com.retailpro.api.ProductApiTests"/>
+    </classes>
+  </test>
+</suite>
